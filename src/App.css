@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Cookie&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  
+}
+
+nav{
+  background-color: rgb(73, 73, 73);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  width: 50%;
+  margin: auto;
+}
+
+nav > p{
+  border-bottom: 1px solid white;
+  width: 90%;
+  margin: auto;
+  padding-bottom: .5rem;
+  font-weight: 600;
+}
+
+.container{
+  padding: 1rem;
+  background-color: #dddddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+ 
+}
+
+.subheading{
+  display: flex;
+  width: 100%;
+  box-shadow: 0px 0px 5px 2px rgb(0, 0, 0),inset 0px 0px 5px 2px rgb(0, 0, 0);;
+  justify-content: space-between;
+  padding: .3rem;
+  font-weight: 600;
+  margin-bottom: .2rem;
+  background-color: #fff;
+  
+}
+
+.subheading > div{
+  margin: .5rem;
+}
+
+
+.subject{
+  background-color: rgb(255, 255, 255);
+  margin: .5rem;
+  padding: .5rem;
+  display: flex;
+  min-width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0rem;
+  box-shadow: 0px 0px 5px 2px rgb(0, 0, 0);
+}
+
+
+.subject >.name{
+  width: 80%;
+    font-style: italic;
+}
+
+.subject > div{
+  margin: 1rem;
+  text-align: center;
+}
+
+
+.subject>select {
+  padding: .8rem;
+  border: none;
+  outline: none;
+  background-color: rgb(72, 72, 72);
+  color: white;
+  border-radius: 5px;
+}
+
+button {
+  background-color: rgb(72, 72, 72);
+  padding: .8rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px 1px rgb(0, 0, 0);
+  cursor: pointer;
+  margin: 1rem;
+  color: white;
+}
+
+button:active{
+  background-color: rgb(40, 40, 40);
+  box-shadow: none;
+}
+
+
+
+.gpa{
+  padding: 1rem;
+  /* border: 1px solid black; */
+  background-color: #acff89;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: 0px 0px 5px 2px rgb(0, 73, 15);
+  border-radius: 10px;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+  .container{
+    width: 100%;
+  }
+  nav{
+    width: 100%;
+  }
+}
